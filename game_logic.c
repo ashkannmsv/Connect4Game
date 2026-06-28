@@ -31,9 +31,6 @@ void input(int row , int col , int board[row][col]  ,int user ,int num) {
             board[i][num] = user;
             break;
         }
-        if (i == 0) {
-            printf("Column is full\n");
-        }
     }
 }
 
